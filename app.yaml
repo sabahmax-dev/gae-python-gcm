@@ -13,3 +13,5 @@ inbound_services:
 handlers:
 
 # Optional django handlers
+- url: /gae_python_gcm/send_request
+  script: gae_python_gcm.handler.app
