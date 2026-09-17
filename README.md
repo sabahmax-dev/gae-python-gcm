@@ -11,7 +11,7 @@ This module is designed to take care of everything you have to think about when 
 
 # Implementation with / without django
 
-gae-python-gcm can be used with or without [Django](https://www.djangoproject.com). The provided example was taken from a [django-nonrel](https://github.com/django-nonrel/django-nonrel) enviroment and is based on the way we use it at [Pulse](http://www.pulse.me). If you want to use it with App Engine's built-in Django or without Django at all, it should be relatively simple to take the core functionality in /gae-python-gcm/gcm.py and leave the rest. Feel free to contact me if you have any quesitons ([@gregbayer](https://twitter.com/gregbayer)).
+gae-python-gcm can be used with or without [Django](https://www.djangoproject.com). The provided example was taken from a [django-nonrel](https://github.com/django-nonrel/django-nonrel) enviroment and is based on the way we use it at [Pulse](http://www.pulse.me). If you want to use it with App Engine's built-in Django or without Django at all, it should be relatively simple to take the core functionality in /gae_python_gcm/gcm.py and leave the rest. Feel free to contact me if you have any quesitons ([@gregbayer](https://twitter.com/gregbayer)).
 
 # Why not use Google's GCM Server referance implmentation
 
@@ -44,6 +44,3 @@ To add gae-python-gcm to your AppEngine project with Django:
 3. Copy the gae-python-gcm directory into your appengine project
 4. Configure your project as appropriate. You may find the urls.py and settings.py examples in the example_django_files directories useful. 
 5. Make sure you set YOUR-GCM-API-KEY in /gae_python_gcm/gcm.py or in the settings module.
-
-
-
